@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A237E"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Dashboard"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <!-- Election Stats -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELECTIONS"
+                android:textColor="#B0BEC5"
+                android:textSize="11sp"
+                android:textAllCaps="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvTotalElections"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Elections: 0"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvOpenElections"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open: 0"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/tvClosedElections"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Closed: 0"
+                android:textColor="#EF9A9A"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"/>
+
+            <!-- Voter Stats -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTERS"
+                android:textColor="#B0BEC5"
+                android:textSize="11sp"
+                android:textAllCaps="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvTotalVoters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Voters: 0"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvVerifiedVoters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verified: 0"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/tvVotedVoters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voted: 0"
+                android:textColor="#B0BEC5"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/tvPendingVoters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending Verification: 0"
+                android:textColor="#FFB74D"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardManageElections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:text="🗳️"
+                        android:textSize="28sp"
+                        android:gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manage Elections"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#1A237E"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Create, open and close elections"
+                            android:textSize="13sp"
+                            android:textColor="#666666"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardVerifyVoters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:text="✅"
+                        android:textSize="28sp"
+                        android:gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Verify Voters"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#1A237E"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Approve registered voters"
+                            android:textSize="13sp"
+                            android:textColor="#666666"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:backgroundTint="#B71C1C"
+                android:textColor="#FFFFFF"
+                android:padding="14dp"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

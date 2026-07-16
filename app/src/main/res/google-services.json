@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "6802830852",
+    "project_id": "evotingsystem-bbed7",
+    "storage_bucket": "evotingsystem-bbed7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6802830852:android:fdcb10ddda827cbe87e751",
+        "android_client_info": {
+          "package_name": "com.example.evotingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6802830852-4lcu38atsudfqs0kg6bnn18sdf25fn8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evotingapp",
+            "certificate_hash": "bed5239032c25a0ca394ab0536d935cc31374c57"
+          }
+        },
+        {
+          "client_id": "6802830852-29pbr06b6rfn9h6bqdebnv3n3mfnkirb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsU_3vkg1V_v7yIF_XcBT09dn7q_xSUdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6802830852-29pbr06b6rfn9h6bqdebnv3n3mfnkirb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6802830852:android:e53e1c0b9baa2dde87e751",
+        "android_client_info": {
+          "package_name": "com.example.evotingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6802830852-29pbr06b6rfn9h6bqdebnv3n3mfnkirb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsU_3vkg1V_v7yIF_XcBT09dn7q_xSUdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6802830852-29pbr06b6rfn9h6bqdebnv3n3mfnkirb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
