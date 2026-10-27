@@ -37,9 +37,7 @@ panel for managing elections and candidates.
    the one provided if sharing privately with the team
 4. Sync Gradle and run
 
-## 👥 Team
+##  Done by
 - 180413 RUTH NDUNGE 
-- 189576 Manuel Githua
-- 191646 Trevor Kimani
-- 191178 Emmanuel Dixon
+
   
